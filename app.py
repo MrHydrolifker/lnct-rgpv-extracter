@@ -46,8 +46,8 @@ def process_roll_number(roll_number, text_area):
 
     # Select Semester 3
     semester_dropdown = Select(driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_drpSemester"))
-    semester_dropdown.select_by_visible_text("3")
-    print("📘 Selected Semester: 3")
+    semester_dropdown.select_by_visible_text("4")
+    print("📘 Selected Semester: 4")
     time.sleep(1)
 
     # Submit the form
