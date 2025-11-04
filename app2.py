@@ -18,7 +18,7 @@ wait = WebDriverWait(driver, 20)
 def process_roll_number(roll_number, semester, text_area):
     try:
         print(f"\n🌐 Processing Roll No: {roll_number}  |  Semester: {semester}")
-        driver.get("https://result.rgpv.ac.in/result/programselect.aspx?id=$%25")
+        driver.get("https://result.rgpv.ac.in/Result/ProgramSelect.aspx")
 
         # Click the B.Tech label
         btech_label = wait.until(
